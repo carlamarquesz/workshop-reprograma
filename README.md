@@ -1,2 +1,2 @@
-# workshop-reprograma
-Criar uma calculadora com js
+## Workshop da Reprograma
+Objetivo: Criar uma calculadora com JavaScript 😆
