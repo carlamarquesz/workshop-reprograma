@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio © Carla Marques</title>
+    <link rel="stylesheet" type="text/css" href="css/desafio.css" />
+
+    <!--ICON DE VOLTAR-->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script> 
+    
+    <!--FONTE BABADO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="box">
+        <h1><span>{ Re</span>programa <span>}</span></h1>
+        <div class='box-input'>
+          <label class="txt" for="valor-hora" >Valor/Hora:</label>
+          <input type="number" id="valor-hora"/>
+      
+          <label class="txt"  for="horas-projeto">Horas do Projeto:</label>
+          <input type="number" id="horas-projeto" />
+          <button class="btn" onclick="calcularValorProjeto()">Calcular</button>
+          
+          <footer class="secao__rodape">
+           <p class="txt">Seu valor total do projeto:</p>
+            <h3 class="secao__rodape__valor">
+              <span id="resposta">R$ 0,00</span>
+            </h3>
+            
+          </footer>
+
+          <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+          
+        </div>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="js/desafio.js"></script>
+  </body>
+</html>

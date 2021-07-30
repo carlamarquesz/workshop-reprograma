@@ -1,0 +1,144 @@
+body{
+  overflow: hidden;
+  
+  background: -webkit-linear-gradient(top left, #5C50A3 0%, #DCB2FE 100%);
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/* FORMS BONITÃO =) */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.box h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #292929;
+ 
+}
+
+.box span{
+  color:#7f479b;
+}
+.box {
+  width: 300px;
+  height: 550px;
+  background: white;
+  box-shadow: 1px 1px 5px #dee2e6;
+  border-radius: 25px;
+  padding: 20px;
+  
+  
+}
+
+.box-input {
+  
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 25px;
+  box-sizing: border-box;
+  
+  
+ 
+  
+}
+
+.box-input label{
+  padding-bottom: 8px;
+  
+  
+  
+}
+.txt{
+  padding-top: 30px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+  
+  
+  
+  
+}
+.box-input button{
+  margin-top: 30px;
+}
+.box-input a{
+  padding-top: 20px;
+  
+}
+input{
+ 
+  padding: 10px 30px;
+  background-color: #E7ECF3;
+  border-radius: 8px;
+  border: 1px solid #E7ECF3;
+  font-size: 14px;
+ 
+  
+  
+}
+input:focus, select:focus {
+  outline: 0;
+}
+.btn{
+  padding: 10px 30px;
+  background-color: #9B51E0;
+  border-radius: 8px;
+  border: 1px solid #9B51E0;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  transition: all .5s ease;
+
+}
+
+.btn:hover{
+  
+  background-color: #BB6BD9;
+  border: 1px solid #BB6BD9;
+}
+
+
+.secao__rodape h3{
+  text-align: center;
+  
+}
+.secao__rodape__valor span {
+  font-size: 1.5rem;
+  color: #9B51E0;
+  
+}
+.secao__rodape__valor small {
+  font-size: 1rem;
+  color: #BB6BD9;
+}
+
+a{
+  color: #9B51E0;
+  transition: all .5s ease;
+}
+a:visited {
+  color: #9B51E0;
+}
+
+a:hover {
+  color: #BB6BD9;
+}
+
+a:active {
+  color: #9B51E0;
+}
+
